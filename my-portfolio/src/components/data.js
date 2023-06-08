@@ -1,8 +1,8 @@
-import auctioneer from "./images/auctioneer-screenshot(2).jpg"
-import holidaze from "./images/holidaze-screenshot(2).jpg"
-import ecommerce from "./images/e-commerce-screenshot(2).jpg"
+import auctioneer from './images/auctioneer-screenshot(2).jpg';
+import holidaze from './images/holidaze-screenshot(2).jpg';
+import ecommerce from './images/e-commerce-screenshot(2).jpg';
 
-console.log(auctioneer)
+console.log(auctioneer);
 
 export const data = [
   {
