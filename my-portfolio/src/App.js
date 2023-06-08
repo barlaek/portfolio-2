@@ -1,10 +1,11 @@
-import logo from './logo.svg';
 import './App.css';
+import Portfolio from './components/Portfolio';
 
 function App() {
   return (
     <div>
       <h1>Hello world!</h1>
+      <Portfolio />
     </div>
   );
 }
