@@ -1,8 +1,11 @@
 import { data } from './data';
+import Cards from './Cards';
 
 function Portfolio() {
   console.log(data);
-  return <div></div>;
+  return (
+    <Cards data={data} />
+  );
 }
 
 export default Portfolio;

@@ -2,16 +2,16 @@ export const data = [
   {
     title: 'Holidaze',
     description: 'Booking application',
-    image: '',
+    image: './images/holidaze-screenshot(2).jpg',
   },
   {
     title: 'The Cart & The Shop',
     description: 'E-commerce single page application',
-    image: '',
+    image: './images/e-commerce-screenshot(2).jpg',
   },
   {
     title: 'Auctioneer',
     description: 'Auction website',
-    image: '',
+    image: './images/auctioneer-screenshot(2).jpg',
   },
 ];
