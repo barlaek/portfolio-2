@@ -1,17 +1,23 @@
+import auctioneer from "./images/auctioneer-screenshot(2).jpg"
+import holidaze from "./images/holidaze-screenshot(2).jpg"
+import ecommerce from "./images/e-commerce-screenshot(2).jpg"
+
+console.log(auctioneer)
+
 export const data = [
   {
     title: 'Holidaze',
     description: 'Booking application',
-    image: '/my-portfolio/src/components/images/holidaze-screenshot(2).jpg',
+    image: `${holidaze}`,
   },
   {
     title: 'The Cart & The Shop',
     description: 'E-commerce single page application',
-    image: './images/e-commerce-screenshot(2).jpg',
+    image: `${ecommerce}`,
   },
   {
     title: 'Auctioneer',
     description: 'Auction website',
-    image: './images/auctioneer-screenshot(2).jpg',
+    image: `${auctioneer}`,
   },
 ];
