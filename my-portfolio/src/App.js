@@ -1,11 +1,12 @@
 import './App.css';
 import React from 'react';
 import Portfolio from './components/Portfolio';
+import Hero from './components/Hero';
 
 function App() {
   return (
     <div>
-      <h1>Hello world!</h1>
+      <Hero />
       <Portfolio />
     </div>
   );
