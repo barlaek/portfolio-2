@@ -1,3 +1,5 @@
+import React from 'react';
+
 function Cards(prop) {
   const content = prop.data.map((card) => {
     return (
