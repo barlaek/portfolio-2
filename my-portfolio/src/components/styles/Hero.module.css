@@ -5,7 +5,12 @@
     align-items: center;
     width: 100vw;
     height: 100vh;
-    margin: auto;
+    margin: 0 auto;
     background-color: rgba(0, 110, 110, 40);
-    color:rgba(255, 156, 109, 100)
+    color:rgba(255, 156, 109, 100);
+    font-size: x-large;
+}
+
+.text {
+    margin: 0 auto;
 }
