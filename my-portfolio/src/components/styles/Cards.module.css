@@ -4,12 +4,16 @@
     padding: 2rem;
     justify-content: center;
     justify-content: space-evenly;
+    align-items: center;
     border: 1px solid black;
+    height: 100vh;
 }
 
 .image {
     aspect-ratio: 16 / 9;
     height: 33vh;
+    border: 1px solid red;
+    border-radius: 5px;
 }
 
 .textBox {
