@@ -8,6 +8,7 @@ function Portfolio() {
   return (
     <div className={styles.content}>
       <div className={styles.wrapper}>
+        <h2 className={styles.title}>My projects</h2>
         <Cards data={data} />
       </div>
     </div>

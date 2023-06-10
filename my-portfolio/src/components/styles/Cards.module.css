@@ -2,11 +2,12 @@
     display: flex;
     flex-direction: column;
     margin-bottom: 2rem;
-    padding: 2rem;
+    padding: .5rem;
     justify-content: center;
     justify-content: space-evenly;
+    align-items: center;
     height: 50vh;
-    width: 98vw;
+    width: 98%;
 }
 
 .image {
@@ -20,9 +21,8 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    font-size: large;
-    min-width: 300px;
     max-width: 300px;
+    align-items: center;
 }
 
 .build {
@@ -37,6 +37,10 @@
 }
 
 @media (min-width: 500px) {
+    .container {
+        padding: 1rem;
+    }
+
     .image {
         max-width: 400px;
     }
@@ -44,7 +48,7 @@
 
 @media (min-width: 700px) {
     .container {
-        width: 90vw;
+        width: 90%;
         align-items: center;
     }
 
