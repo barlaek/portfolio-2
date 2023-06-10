@@ -1,7 +1,7 @@
 .background {
     position: relative;
     width: 100vw;
-    height: 100vh;
+    height: 90vh;
 }
 
 .mask {
@@ -14,7 +14,7 @@
 
 .container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     justify-content: space-evenly;
     align-items: center;
@@ -41,4 +41,10 @@
     width: 300px;
     height: 300px;
     border-radius: 50%;
+}
+
+@media(min-width: 1000px) {
+    .container {
+        flex-direction: row;
+    }
 }
