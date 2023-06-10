@@ -6,7 +6,7 @@
     justify-content: center;
     justify-content: space-evenly;
     align-items: center;
-    height: 50vh;
+    height: 40vh;
     width: 98%;
 }
 
@@ -25,7 +25,7 @@
     align-items: center;
 }
 
-.textBox h2 {
+.textBox h3 {
     color: #AF37FF;
 }
 

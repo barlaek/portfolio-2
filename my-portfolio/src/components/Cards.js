@@ -7,7 +7,7 @@ function Cards(prop) {
       <div key={card.title} className={styles.container}>
         <img src={card.image} alt="image of website" className={styles.image} />
         <div className={styles.textBox}>
-          <h2>{card.title}</h2>
+          <h3>{card.title}</h3>
           <p>{card.description}</p>
           <div className={styles.build}>
             <p>{card.build.JS}</p>
