@@ -1,12 +1,10 @@
 .content {
     width: 100vw;
-    background-color: white;
 }
 
 .wrapper {
     width: 90vw;
     margin: 0 auto;
-    border: 1px solid black;
     border-radius: 10px;
-    background-color: #3e363f;
+    background-color: #EBF5F0;
 }
