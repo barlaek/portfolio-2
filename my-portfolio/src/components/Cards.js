@@ -9,6 +9,11 @@ function Cards(prop) {
         <div className={styles.textBox}>
           <h2>{card.title}</h2>
           <p>{card.description}</p>
+          <div className={styles.build}>
+            <p>{card.build.JS}</p>
+            <p>{card.build.CSS}</p>
+          </div>
+          <a href={card.url}>Live site</a>
         </div>
       </div>
     );

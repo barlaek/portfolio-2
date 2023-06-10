@@ -28,7 +28,7 @@
 .textContainer {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    margin: 0 1rem;
 }
 
 .text {
@@ -41,6 +41,12 @@
     width: 300px;
     height: 300px;
     border-radius: 50%;
+}
+
+@media (min-width: 600px) {
+    .textContainer {
+        align-items: center;
+    }
 }
 
 @media(min-width: 1000px) {
