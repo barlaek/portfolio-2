@@ -12,6 +12,7 @@ export const data = [
       'Holidaze is a booking application where users can register accounts as either guest or manager, and the managers can create, update, and delete venues they manage.',
     image: `${holidaze}`,
     url: 'https://celadon-torrone-f10bdf.netlify.app/',
+    github: "https://github.com/barlaek/project-exam-2-holidaze",
     build: {
       JS: 'React',
       CSS: 'CSS',
@@ -23,6 +24,7 @@ export const data = [
       'E-commerce single page application with full cart functionality.',
     image: `${ecommerce}`,
     url: 'https://gilded-treacle-5863c5.netlify.app/',
+    github: "https://github.com/barlaek/js-frameworks-CA",
     build: {
       JS: 'React',
       CSS: 'CSS',
@@ -34,6 +36,7 @@ export const data = [
       'Auctioneer is an auction website where users can register an account, bid on, and create their own listings.',
     image: `${auctioneer}`,
     url: 'https://elegant-frangipane-898501.netlify.app/',
+    github: "https://github.com/barlaek/semester-project-two",
     build: {
       JS: 'JavaScript',
       CSS: 'TailwindCSS',

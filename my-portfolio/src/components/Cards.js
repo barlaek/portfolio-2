@@ -13,7 +13,10 @@ function Cards(prop) {
             <p>{card.build.JS}</p>
             <p>{card.build.CSS}</p>
           </div>
-          <a href={card.url}>Live site</a>
+          <div className={styles.links}>
+            <a href={card.url}>Live site</a>
+            <a href={card.github}>Repository</a>
+          </div>
         </div>
       </div>
     );
