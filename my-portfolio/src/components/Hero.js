@@ -9,8 +9,8 @@ function Hero() {
       <div className={styles.mask}>
         <div className={styles.container}>
           <div className={styles.textContainer}>
-            <h1>Hi, my name is Bjørn Arne</h1>
-            <h2>And I am a Frontend Developer</h2>
+            <h1 className={styles.text}>Hi, my name is Bjørn Arne</h1>
+            <h2 className={styles.text}>And I am a Frontend Developer</h2>
           </div>
           <div className={styles.hero}>
             <img src={dev.image} alt="image of developer" />
