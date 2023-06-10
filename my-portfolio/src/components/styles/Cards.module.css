@@ -25,6 +25,10 @@
     align-items: center;
 }
 
+.textBox h2 {
+    color: #AF37FF;
+}
+
 .build {
     display: flex;
 }

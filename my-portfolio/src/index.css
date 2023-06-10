@@ -17,3 +17,12 @@ code {
 p {
   font-family: "Open-sans", sans-serif;
 }
+
+a {
+  color: #AF37FF;
+}
+
+a:hover {
+  color: #FFE145;
+  text-decoration: none;
+}
