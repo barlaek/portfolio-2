@@ -7,4 +7,5 @@
     margin: 0 auto;
     border-radius: 10px;
     background-color: #EBF5F0;
+    box-shadow: 5px 15px 2px 1px #36454F, -5px 15px 2px 1px #36454F;
 }
