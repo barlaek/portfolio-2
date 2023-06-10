@@ -7,7 +7,9 @@ function Portfolio() {
   console.log(data);
   return (
     <div className={styles.content}>
-      <Cards data={data} />;
+      <div className={styles.wrapper}>
+        <Cards data={data} />
+      </div>
     </div>
   );
 }
