@@ -13,7 +13,7 @@
     height: 15vh;
     border: 1px solid #36454F;
     border-radius: 10px;
-    max-width: 250px;
+    max-width: 300px;
 }
 
 .textBox {
@@ -34,6 +34,12 @@
     background-image: linear-gradient(to top right, #FFE145, #AF37FF);
     border-radius: 10px;
     margin-right: 1rem;
+}
+
+@media (min-width: 500px) {
+    .image {
+        max-width: 400px;
+    }
 }
 
 @media (min-width: 700px) {
